@@ -5,6 +5,7 @@ namespace AspNet.Identity.RavenDB.Entities
 {
     public class RavenUserLogin
     {
+        public RavenUserLogin() { }
         public RavenUserLogin(string userId, UserLoginInfo loginInfo)
         {
             if (userId == null) throw new ArgumentNullException("userId");
